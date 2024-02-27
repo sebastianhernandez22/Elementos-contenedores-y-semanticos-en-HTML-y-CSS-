@@ -1,0 +1,121 @@
+The display property is the most important CSS property for controlling layout.
+
+The display Property
+The display property is used to specify how an element is shown on a web page.
+
+Every HTML element has a default display value, depending on what type of element it is. The default display value for most elements is block or inline.
+
+The display property is used to change the default display behavior of HTML elements.
+
+
+# Ejemplo 1
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+li {
+  display: inline;
+}
+</style>
+</head>
+<body>
+
+<p>Display a list of links as a horizontal menu:</p>
+
+<ul>
+  <li><a href="/html/default.asp" target="_blank">HTML</a></li>
+  <li><a href="/css/default.asp" target="_blank">CSS</a></li>
+  <li><a href="/js/default.asp" target="_blank">JavaScript</a></li>
+</ul>
+
+</body>
+</html>
+
+
+# Ejemplo 2
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+span {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<h1>Display span elements as block elements</h1>
+
+<span>A display property with</span> <span>a value of "block" results in</span> <span>a line break between each span elements.</span>
+
+</body>
+</html>
+
+
+# Ejemplo 3
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<h1>Display links as block elements</h1>
+
+<a href="/html/default.asp" target="_blank">HTML</a>
+<a href="/css/default.asp" target="_blank">CSS</a>
+<a href="/js/default.asp" target="_blank">JavaScript</a>
+
+</body>
+</html>
+
+
+# Ejemplo 4
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1.hidden {
+  display: none;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a visible heading</h1>
+<h1 class="hidden">This is a hidden heading</h1>
+<p>Notice that the h1 element with display: none; does not take up any space.</p>
+
+</body>
+</html>
+
+
+# Ejemplo 5
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1.hidden {
+  visibility: hidden;
+}
+</style>
+</head>
+<body>
+
+<h1>This is a visible heading</h1>
+<h1 class="hidden">This is a hidden heading</h1>
+<p>Notice that the hidden heading still takes up space.</p>
+
+</body>
+</html>
+
+
